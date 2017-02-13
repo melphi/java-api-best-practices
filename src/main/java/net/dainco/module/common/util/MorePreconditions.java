@@ -1,7 +1,7 @@
 package net.dainco.module.common.util;
 
 import com.google.common.base.Strings;
-import net.dainco.module.exception.BadRequestException;
+import net.dainco.module.common.exception.BadRequestException;
 
 import static com.google.common.base.Preconditions.checkArgument;
 

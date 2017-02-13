@@ -1,6 +1,6 @@
 package net.dainco.module.user.exception;
 
-import net.dainco.module.exception.BadRequestException;
+import net.dainco.module.common.exception.BadRequestException;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
