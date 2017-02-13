@@ -1,6 +1,6 @@
 package net.dainco.module.user.exception;
 
-import net.dainco.module.user.domain.constant.UserConstants;
+import net.dainco.module.user.util.UserConstants;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
 

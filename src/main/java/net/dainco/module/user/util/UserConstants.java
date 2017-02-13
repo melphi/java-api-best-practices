@@ -1,4 +1,4 @@
-package net.dainco.module.user.domain.constant;
+package net.dainco.module.user.util;
 
 /**
  * Common constants to be used for User related messages. It can be used by the interface to
