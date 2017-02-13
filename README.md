@@ -12,6 +12,7 @@ mvn spring-boot:run
 ```
 
 ## Docker
+Docker should be installed in your computer https://www.docker.com
 ```
 sh build-docker.sh
 docker run --net=host java-api-guidelines
