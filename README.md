@@ -3,7 +3,7 @@
 A working example with Spring Boot.
 
 ## How to run
-You can run the application from Maven, from Docker or as Java standalone executable. After few seconds the application should be availabe, for example http://localhost:8080/health returns the health status.
+You can run the application from Maven, from Docker or as Java standalone executable. To build the application you will need Maven and Java8. After few seconds the application should be availabe, for example http://localhost:8080/health returns the health status.
 
 ### Maven
 Form the repository base folder run:
@@ -12,7 +12,7 @@ mvn spring-boot:run
 ```
 
 ## Docker
-Docker should be installed in your computer https://www.docker.com
+Docker should be installed in your computer.
 ```
 sh build-docker.sh
 docker run --net=host java-api-guidelines
