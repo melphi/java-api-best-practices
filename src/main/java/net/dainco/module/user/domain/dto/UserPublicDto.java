@@ -17,8 +17,7 @@ public class UserPublicDto implements UserPublic {
 	}
 
 	public UserPublicDto(UserPublic user) {
-		this.id = user.getId();
-		this.fullName = user.getFullName();
+		this(user.getId(), user.getFullName());
 	}
 
 	public UserPublicDto(String id, String fullName) {
