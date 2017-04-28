@@ -15,7 +15,7 @@ mvn spring-boot:run
 Docker should be installed in your computer.
 ```
 sh build-docker.sh
-docker run --net=host java-api-guidelines
+sudo docker run --net=host -e JAVA_OPTS="-Xmx1g -Xms1g" java-api-guidelines
 ```
 
 ## Java standalone executable
